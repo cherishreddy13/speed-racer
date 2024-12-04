@@ -92,3 +92,73 @@ h2, h3 {
 .loginButton:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+
+
+/* Existing CSS styles... */
+
+/* Add your existing styles here */
+
+/* Responsive CSS for Mobile View */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Vollkorn', serif; /* Ensure the font is loaded */
+        background-color: #000; /* Background color */
+        color: #fff; /* Text color */
+        font-size: 14px; /* Base font size for mobile */
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .customButton {
+        width: 90%; /* Full width with some margin */
+        height: 50px; /* Adjusted height for mobile */
+        background-color: #fea834;
+        border: 3px solid white;
+        color: #FFFF;
+        font-weight: bold;
+        border-radius: 10px;
+        margin: 10px auto; /* Centered with margin */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px; /* Smaller button text */
+        cursor: pointer;
+        transition-duration: 0.4s;
+        outline: none;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"] {
+        width: 90%; /* Full width */
+        padding: 10px; /* Padding for better touch targets */
+        margin: 10px auto; /* Centered with margin */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px; /* Font size for mobile */
+    }
+
+    ::placeholder {
+        color: white;
+        opacity: 0.7; /* Slightly transparent */
+    }
+
+    .leadersText {
+        font-size: 16px; /* Smaller leaderboard text */
+        color: white;
+        text-align: center;
+        margin: 5px 0; /* Margin for spacing */
+    }
+}
